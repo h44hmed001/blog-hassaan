@@ -1,0 +1,43 @@
+.link:visited{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.items{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    font-weight: 700;
+}
+.item{
+    cursor:pointer;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+.dot{
+    width:12px;
+    height:12px;
+    background-color: rgb(224, 189, 34) ;
+    border-radius: 50%;
+    margin-bottom:5px;
+    margin-left:3px;
+}
+
+@media screen and (max-width:500px) {
+    .title,.item{font-size:16px}
+    .dot{
+        width:7px;
+        height:7px;
+    }
+}

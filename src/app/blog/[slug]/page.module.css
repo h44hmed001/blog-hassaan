@@ -1,0 +1,40 @@
+.container{
+    margin-top: 40px;;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.title{
+    font-size: 35px;
+}
+.imgContainer{
+    width: 100%;
+    height:70vh;
+    position: relative;
+}
+.img{
+    object-fit: cover;
+}
+.barloader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textBlock{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.desc{
+    padding-bottom: 30px;
+    border-bottom:2px solid white ;
+}
+.content{
+    padding-top: 50px;
+}
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 20px;
+    }
+    
+}

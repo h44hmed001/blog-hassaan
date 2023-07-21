@@ -1,0 +1,44 @@
+.imgContainer{
+    width: 370px;
+    height: 370px;
+    position: relative;
+    margin-bottom:2px;
+}
+.img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+.container{
+    max-width: 370px;
+}
+.title{
+    font-weight: 500;
+    margin-bottom:4px;
+}
+.textBlock{
+    word-break: break-word;
+}
+.desc{
+    font-size: 14px;
+}
+.link:visited{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width: 500px){
+    .img{
+        max-width:300px;
+    
+    }
+    .imgContainer{
+        max-width: 300px;
+    }
+    .textBlock{
+        word-break: break-word;
+    }
+    .desc{word-break: break-word;}
+    .title{word-break: break-word;}
+}

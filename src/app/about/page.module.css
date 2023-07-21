@@ -1,0 +1,23 @@
+.imgCont{
+    position: relative;
+    width:100%;
+    height:350px;
+    border-radius: 25px;;
+}
+.img{
+    object-fit: cover;
+    border-radius: 25px;;
+    
+}
+.container{
+    margin-top: 40px;
+}
+.item{
+    flex:1;
+}
+.textContainer{
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
