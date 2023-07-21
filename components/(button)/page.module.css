@@ -1,7 +1,7 @@
 .button{
     width: fit-content;
     padding:10px 20px;
-    background-color: rgb(224, 189, 34) ;
+    background-color: rgba(42, 114, 207, 0.966);
     font-weight: 600;
     border: none;
     border-radius: 10px;
@@ -13,6 +13,6 @@
     transform: scale(.9);
 }
 .button:hover{
-    background-color: rgb(192, 159, 13) ;
+    background-color:rgba(32, 89, 163, 0.966);
     
 }

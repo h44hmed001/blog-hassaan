@@ -1,5 +1,5 @@
 .link:visited{
-    color: rgb(0, 0, 0);
+    color:rgba(42, 114, 207, 0.966);
 }
 .link{
     text-decoration: none;
@@ -17,7 +17,7 @@
     list-style: none;
     gap:20px;
     font-weight: 700;
-    color:black;
+    color:rgba(42, 114, 207, 0.966);
 }
 .item{
     cursor:pointer;
@@ -30,7 +30,7 @@
 .dot{
     width:12px;
     height:12px;
-    background-color: rgb(224, 189, 34) ;
+    background-color:rgba(42, 114, 207, 0.966);
     border-radius: 50%;
     margin-bottom:5px;
     margin-left:3px;

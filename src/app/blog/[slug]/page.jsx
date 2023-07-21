@@ -19,7 +19,7 @@ const page = ({params}) => {
   },[params.slug])
   return !blog?<BarLoader
   className={styles.barLoader}
-  color="rgb(224, 189, 34)"
+  color="rgba(42, 114, 207, 0.966);"
   height={6}
   width={300}
 />:(
