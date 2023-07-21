@@ -7,7 +7,8 @@
     border-radius: 10px;
     cursor:pointer;
     transition: all ease 0.3s;
-
+    color:white;
+    
 }
 .button:active{
     transform: scale(.9);
