@@ -14,19 +14,21 @@
 .title{
     font-weight: 500;
     margin-bottom:4px;
+    color: black;
 }
 .textBlock{
     word-break: break-word;
 }
 .desc{
     font-size: 14px;
+    color: black;
 }
 .link:visited{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .link{
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 @media screen and (max-width: 500px){
     .img{
