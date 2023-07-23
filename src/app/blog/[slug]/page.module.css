@@ -38,3 +38,22 @@
     }
     
 }
+.button{
+    width: fit-content;
+    padding:10px 20px;
+    background-color: rgba(216, 32, 32, 0.966);
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all ease 0.3s;
+    color:white;
+    
+}
+.button:active{
+    transform: scale(.9);
+}
+.button:hover{
+    background-color:rgba(150, 19, 19, 0.966);
+    
+}

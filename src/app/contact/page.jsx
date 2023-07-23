@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "../../../components/(button)/Button";
 
-const Contact = () => {
+const page = () => {
     const handleSubmit=(e)=>{
         e.preventDefault()
     }
@@ -29,4 +29,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default page;

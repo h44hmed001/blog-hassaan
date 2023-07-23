@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 export default function Home() {
   const [blogs,setBlogs]=useState([])
-
+useEffect(()=>{
   const unsubscribe=async()=>{
     const arr=[]
       const querySnapshot = await getDocs(collection(db, "blogs"));
@@ -20,12 +20,14 @@ export default function Home() {
       });
     }
   unsubscribe()
+},[])
+  
   
   return (
     <>
-    {blogs.map((blog,i)=>blog.featured&&<MainCard key={i} link={blog.id} title={blog.title} desc={blog.desc} img={blog.image}/>)}
+    {blogs&&blogs.map((blog,i)=>blog.featured&&<MainCard key={i} link={blog.id} title={blog.title} desc={blog.desc} img={blog.image}/>)}
     <div className={styles.blogs}>
-      {blogs.map((blog,i)=>!blog.featured&&<Card key={i} link={blog.id} title={blog.title} desc={blog.desc} img={blog.image}/>)}
+      {blogs&&blogs.map((blog,i)=>!blog.featured&&<Card key={i} link={blog.id} title={blog.title} desc={blog.desc} img={blog.image}/>)}
     </div>
     </>
   )
